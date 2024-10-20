@@ -25,4 +25,4 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: alberpt/my_nginx:${{ github.ref }}  # Utiliza el nombre del tag como versión
+        tags: alberpt/my_nginx:${{ github.ref_name }}  # Utiliza el nombre del tag como versión
